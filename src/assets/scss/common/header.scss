@@ -19,9 +19,9 @@
     list-style-type: none;
     font-family: $body;
     font-size: 1.2rem;
-    width: 7rem;
+    width: 10rem;
     @media screen and (max-width: 768px) {
-      width: 10rem;
+      width: 12rem;
     }
     &__link {
       color: $black;

@@ -16,8 +16,8 @@ export default function Header() {
                 <h1 className="header__content__title">ALEXIA F. <br/><span className="blue header__content__title__name">CADOU</span></h1>
             </Link>
             <nav className="header__nav">
-                <Link className={`header__nav__link ${isActive('/') ? 'active' : ''}`} to={'/'}>Home</Link>
-                <Link className={`header__nav__link ${isActive('/about') ? 'active' : ''}`} to={'/about'}>About</Link>
+                <Link className={`header__nav__link ${isActive('/') ? 'active' : ''}`} to={'/'}>Accueil</Link>
+                <Link className={`header__nav__link ${isActive('/about') ? 'active' : ''}`} to={'/about'}>Contact</Link>
             </nav>
         </header>
     );
