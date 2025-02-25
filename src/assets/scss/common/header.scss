@@ -1,0 +1,38 @@
+// variables
+@use '../variables/variables.scss' as *;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 2rem 0 2rem;
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: $body;
+    width: 6rem;
+    &__item {
+      color: $black;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__title {
+      color: $black;
+      &__name {
+        //letter-spacing: 1rem;
+        font-size: 2.5rem;
+      }
+    }
+    &__logo {
+      width: 2rem;
+      height: auto;
+    }
+  }
+}

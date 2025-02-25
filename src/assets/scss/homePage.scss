@@ -1,0 +1,21 @@
+// variables
+@use './variables/variables.scss' as *;
+
+.main {
+  margin: 0 2rem;
+  &__text {
+    font-family: $italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: $black;
+    margin-bottom: 2rem;
+  }
+  &__link {
+    margin-bottom: 2rem;
+    &__text {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: $black;
+    }
+  }
+}

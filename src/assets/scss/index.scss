@@ -1,0 +1,52 @@
+// imports
+// @forward pour partager même les enfants du parent importé
+// @use pour partager les variables par exemple et éviter de devoir les préfixer
+
+// variables
+@use './variables/variables.scss' as *;
+
+// components
+@forward "./common/header";
+@forward './components/gallery.scss';
+@forward "homePage";
+
+
+// responsive
+// 280px
+// 375px
+// 425px
+// 768px
+// 1024px
+// 1280px
+// 1920px
+
+// scss
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $title;
+}
+
+body {
+  font-family: $text;
+  background-color: $white;
+  color: $black;
+}
+
+p {
+  font-family: $text;
+}
+
+.blue {
+  color: $blue;
+}

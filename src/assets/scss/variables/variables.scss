@@ -1,0 +1,37 @@
+// fonts
+@font-face {
+  font-family: 'GlacialBold';
+  src: url('src/assets/font/glacial-indifferencebold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'GlacialRegular';
+  src: url('src/assets/font/glacial-indifferenceregular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Josefin';
+  src: url('src/assets/font/JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant';
+  src: url('src/assets/font/CormorantSC-Regular.ttf') format('truetype');
+}
+
+// colors
+$white: #eaeaea;
+$black: #000000;
+$blue: #00d1c8;
+$darkerblue: #116562;
+$orange: #fc9b02;
+
+// fonts
+$title: 'GlacialBold', sans-serif;
+$body: 'GlacialRegular', sans-serif;
+$text: 'Josefin', sans-serif;
+$italic: 'Cormorant', sans-serif;
+
+// shadows
+$shadow-inset:
+        inset 5px 5px 10px rgba(0, 0, 0, 0.6),
+        inset -5px -5px 10px rgba(255, 255, 255, 0.2),
+        0 0 10px rgba(0, 0, 0, 0.5);
+$box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
