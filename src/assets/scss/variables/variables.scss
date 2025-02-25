@@ -2,32 +2,42 @@
 @font-face {
   font-family: 'GlacialBold';
   src: url('src/assets/font/glacial-indifferencebold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
   font-family: 'GlacialRegular';
   src: url('src/assets/font/glacial-indifferenceregular.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
   font-family: 'Josefin';
   src: url('src/assets/font/JosefinSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+//@font-face {
+//  font-family: 'Cormorant';
+//  src: url('src/assets/font/CormorantSC-Regular.ttf') format('truetype');
+//}
 @font-face {
-  font-family: 'Cormorant';
-  src: url('src/assets/font/CormorantSC-Regular.ttf') format('truetype');
+  font-family: 'Tangerine';
+  src: url('src/assets/font/Tangerine-Regular.ttf') format('truetype');
 }
 
 // colors
 $white: #eaeaea;
 $black: #000000;
 $blue: #00d1c8;
-$darkerblue: #116562;
+$darker-blue: #116562;
 $orange: #fc9b02;
 
 // fonts
-$title: 'GlacialBold', sans-serif;
+$title: 'Josefin', sans-serif;
 $body: 'GlacialRegular', sans-serif;
 $text: 'Josefin', sans-serif;
-$italic: 'Cormorant', sans-serif;
+$italic: 'Tangerine', serif;
 
 // shadows
 $shadow-inset:
