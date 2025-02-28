@@ -8,8 +8,10 @@
 // components
 @forward "./common/header";
 @forward './components/gallery.scss';
-@forward "homePage";
-@forward "about";
+@forward "pages/homePage";
+@forward "pages/about";
+@forward "pages/notFound";
+@forward "common/footer";
 
 // responsive
 // 280px

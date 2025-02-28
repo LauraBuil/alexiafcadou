@@ -1,0 +1,21 @@
+// variables
+@use '../variables/variables' as *;
+
+.not-found {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  &__title {
+    font-family: $title;
+    font-size: 8rem;
+    color: $black;
+    text-align: center;
+  }
+  &__text {
+    font-family: $text;
+    font-size: 3rem;
+    color: $black;
+    text-align: center;
+  }
+}

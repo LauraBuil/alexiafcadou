@@ -11,7 +11,7 @@ import App from './App.tsx';
 
 // Children
 import HomePage from './components/pages/HomePage.tsx';
-// import NotFound from './react/pages/NotFound.tsx';
+import NotFound from './components/pages/NotFound.tsx';
 import About from './components/pages/About.tsx';
 
 const router = createBrowserRouter([
@@ -26,10 +26,10 @@ const router = createBrowserRouter([
                 path: '/about',
                 element: <About />,
             },
-            // {
-            //     path: '*',
-            //     element: <NotFound />,
-            // },
+            {
+                path: '*',
+                element: <NotFound />,
+            },
         ],
     },
 ]);

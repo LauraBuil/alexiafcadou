@@ -1,0 +1,17 @@
+// variables
+@use '../variables/variables' as *;
+
+.main {
+  margin: 0 2rem;
+  &__text {
+    font-family: $italic;
+    font-size: 3rem;
+    color: $black;
+    margin: 2rem 0;
+    letter-spacing: 0.2rem;
+    @media screen and (max-width: 768px) {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+}
